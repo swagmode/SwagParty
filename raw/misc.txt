@@ -1,20 +1,18 @@
-[Premium-Whitelist-Checker]
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/22kristina/swag/main/WhitelistCheck"), true))()
+(copy just the loadstring obviously)
 
-[SwagModeV002]
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+ SM Premium Information can be found here : https://pastebin.com/raw/e09rcD3x
+ 
+Server Crasher / Duper
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))() 
+ 
+SM [ MAIN ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
+ 
 
-[SwagMode-Old]
-loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/oldwagmode'))()
-
-[Shazam-Fly]
-loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/admin_fly'))()
-
-[FE-Tool]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
-
-[Swag-AutoFarm]
-loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/lua-projects/master/SwagAutofarm'))()
-
-[FullGod-Bypass]
-loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/lua-projects/master/FullGodBypass'))()
+-- EXTRAS --
+ 
+SM [ OLD ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
+ 
+ADMIN FLY
+loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
