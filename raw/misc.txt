@@ -16,3 +16,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-project
  
 ADMIN FLY
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+
+
+-- MICS RELEASES --
+
+SwagPremium [ Checker ]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/PremiumCheck"))()
+
+FE-Tool
+loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
