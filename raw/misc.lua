@@ -1,0 +1,27 @@
+(copy just the loadstring obviously)
+
+ SM Premium Information can be found here : https://pastebin.com/raw/e09rcD3x
+ 
+Server Crasher / Duper
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))() 
+ 
+SM [ MAIN ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
+ 
+
+-- EXTRAS --
+ 
+SM [ OLD ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
+ 
+ADMIN FLY
+loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+
+
+-- MICS RELEASES --
+
+SwagPremium [ Checker ]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/PremiumCheck"))()
+
+FE-Tool
+loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
