@@ -205,7 +205,7 @@ $('#swagCrash').hover(function() {
 $('#adminFly').hover(function() {
     $(this).html("Click To Copy")
     $('#cp').html(adminFly)
-    $('#credit').html("This Script was made by <a href='https://discord.gg/swaggest'>kristina#1234</a> | Toggle key 'x'")
+    $('#credit').html("This Script was made by <a href='https://discord.gg/swaggest'>kristina#1111</a> | Toggle key 'x'")
     
     $(this).on("click", function() {
         copyToClipboard(adminFly)
