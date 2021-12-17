@@ -163,7 +163,7 @@ $("#faqpage2").on("click", () => {
 $('#swagNew').hover(function() {
     $(this).html("Click To Copy")
     $('#cp').html(swagNew)
-    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lu?#7643</a>')
+    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lerk#7643</a>')
 
     $(this).on("click", function() {
         copyToClipboard(swagNew)
@@ -177,7 +177,7 @@ $('#swagNew').hover(function() {
 $('#swagOld').hover(function() {
     $(this).html("Click To Copy")
     $('#cp').html(swagOld)
-    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lu?#7643</a>')
+    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lerk#7643</a>')
     
     $(this).on("click", function() {
         copyToClipboard(swagOld)
@@ -191,7 +191,7 @@ $('#swagOld').hover(function() {
 $('#swagCrash').hover(function() {
     $(this).html("Click To Copy")
     $('#cp').html(swagCrash)
-    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lu?#7643</a>')
+    $('#credit').html('This Script was made by <a href="https://discord.gg/swagprem">Lerk#7643</a>')
     
     $(this).on("click", function() {
         copyToClipboard(swagCrash)
