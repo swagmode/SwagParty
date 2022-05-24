@@ -3,7 +3,6 @@ console.log("baka!")
 var swagNew = "loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()"
 var swagOld = "loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()"
 var swagCrash = "loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()"
-var adminFly = "loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/admin_fly'))()"
 
 
 
@@ -202,16 +201,4 @@ $('#swagCrash').hover(function() {
     $(this).html("Swag Crash")
 })
 
-$('#adminFly').hover(function() {
-    $(this).html("Click To Copy")
-    $('#cp').html(adminFly)
-    $('#credit').html("This Script was made by <a href='https://discord.gg/swagprem'>kristina#1234</a> | Toggle key 'x'")
-    
-    $(this).on("click", function() {
-        copyToClipboard(adminFly)
-        $(this).html("Copied")
-    })
 
-}, function() {
-    $(this).html("Admin Fly")
-})
