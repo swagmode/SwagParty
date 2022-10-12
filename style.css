@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body { 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #2d2d2d; 
+}
+   
+
+::-webkit-scrollbar-thumb {
+  background: #1d1d1d; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d; 
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.432);
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgba(255, 255, 255, 0.432);
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+
+
+h6, .h6 {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    color: #f96332;
+    text-decoration: none;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+.commands {
+    color: white;
+    padding: 2% 5%;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+.commands li {
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+.discord_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord_main h1 {
+    margin-top: 10px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.texts {
+    margin: 1%;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.packagesDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.scriptDiv {
+    text-align: center;
+    align-items: center;
+}
+
+.scriptDiv hr {
+    width: 100%;
+}
+
+
+.buttons {
+    margin-right: 20%;
+}
+
+.scriptButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.scriptBox {
+    background-color: hsla(0, 0%, 25%, 0.744);
+    border: none;
+    width: 90%;
+    height: 90%;
+    text-align: start;
+    margin: 5%;
+    color: white;
+    padding: 3%;
+    resize: none;
+}
+
+p {
+    color: #fff;
+}
+
+.package p {
+    margin: 5%;
+    font-size: 120%;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 350px;
+    margin: 5%;
+    background: rgba(69, 69, 69, 0.163);
+}
+
+.video {
+    display: block;
+}
+.packagesDiv h1 {
+    font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    .discord_main {
+        flex-direction: column;
+    }
+
+    .packages {
+        flex-direction: column;
+    }
+
+}
