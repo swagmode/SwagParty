@@ -1,0 +1,46 @@
+.content h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 40px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #202020;
+  color: white;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #282928;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #4e544f;
+}
