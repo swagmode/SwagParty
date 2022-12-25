@@ -9,16 +9,24 @@ window.addEventListener("load", async () => {
             let response = await fetch(`https://api.lanyard.rest/v1/users/${user}`)
             let json = await response.json()
 
-            let status = json?.discord_status
+            let status = json?.data?.discord_status
 
-            let text = 'offline'
-            if(status) text = 'online'
-            
+            console.log(json)
+
+            let text = '• offline'
+            if(status) text = '• online'
             if(!status) status = 'offline'
             
 
             $(`#${user}`).text(text)
-            $(`#${user}`).toggleClass(status);
+            $(`#${user}`).addClass(status);
+
+            let activity = json?.data?.activities?.filter(a => a.id == 'custom')
+            if(activity.length > 0) {
+                activity = activity[0]
+                $(`#${user}-status`).text(`Status: ${activity?.state}`)
+            }
+
         } catch(err) {
             console.log(err)
         }
