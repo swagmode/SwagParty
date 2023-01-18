@@ -115,7 +115,7 @@ button {
     position: relative;
     overflow: hidden;
 }
-h2 {
+.content h2 {
     font-size: 16px;
     padding: 140px 0;
     height: 50px;
