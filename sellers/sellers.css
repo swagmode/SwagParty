@@ -1,0 +1,76 @@
+.package {
+
+    height: 400px;
+}
+
+.methods {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 0px;
+    margin-left: 10px;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.commands pre {
+    margin-bottom: 10px;
+}
+
+.methods li {
+    margin: 5px;
+}
+
+.av {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.av img {
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+}
+
+.st {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    white-space:pre;
+}
+
+.st p {
+    margin: 0px;
+}
+
+.st span {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 75%;
+    color: grey;
+}
+
+.online {
+    color: lightgreen;
+}
+.offline {
+    color: grey
+}
+.idle {
+    color: yellow
+}
+.dnd {
+    color: lightcoral
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
