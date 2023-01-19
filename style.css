@@ -72,6 +72,17 @@ body {
     bottom: -10px;
     transition: 0.3s;
 }
+#ad-container {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+  }
+#ad-container2 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+  }
+  
 
 .navbar ul li:hover::after{
     width: 100%;
@@ -183,9 +194,6 @@ button:hover span{
     width: 100%;
 }
 
-button:hover{
-    
-}
 
 .discord_main {
     display: flex;
