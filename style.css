@@ -72,6 +72,17 @@ body {
     bottom: -10px;
     transition: 0.3s;
 }
+@media only screen and (max-width: 600px) {
+    #ad-container2 {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    #ad-container {
+      display: none;
+    }
+  }
 #ad-container {
     position: absolute;
     top: 90px;
